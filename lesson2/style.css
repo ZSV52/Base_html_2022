@@ -10,6 +10,14 @@ ul {
   width: 1140px;
   margin: 0 auto;
 }
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+.wrap1 {
+  flex: 1;
+  min-height: 100vh;
+}
 /* стили хэдера */
 header {
   background-color: aquamarine;
