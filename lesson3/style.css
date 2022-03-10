@@ -1,3 +1,4 @@
+/* общие стили */
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -11,13 +12,34 @@ ul {
   width: 1140px;
   margin: 0 auto;
 }
+.btn {
+  width: 200px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.btn-primary {
+  background-color: #3a95ff;
+  color: #fff;
+}
+.btn-secondary {
+  border: 1px solid #3a95ff;
+  color: #3a95ff;
+}
+/* стили хэдера */
 .header-top {
   border: 1px solid #dedede;
 }
 .header-top-info {
+  height: 67px;
   display: flex;
   justify-content: space-between;
-  height: 67px;
   align-items: center;
 }
 .top-menu {
@@ -46,19 +68,58 @@ ul {
 .list-blue {
   color: #3a95ff;
   font-weight: 600;
+  text-decoration: none;
 }
 .list-blue1 a {
   text-decoration: none;
 }
 .main-menu-list {
-  height: 67px;
+  height: 73px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .main-menu-list a {
   text-decoration: none;
-  color: #424242;
   font-size: 16px;
   font-weight: 500;
+  color: #424242;
+}
+
+/* стили баннера */
+.main-banner {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.main-banner-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-offer-text {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 110%;
+  color: #212121;
+  margin-bottom: 63px;
+}
+.banner-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+/* лучшие предложения */
+.offers-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.offers-info-item {
+  background: #eff2f5;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 555px;
+  display: flex;
+  margin-bottom: 62px;
+}
+.offers-info-item img {
+  border-radius: 0 8px 8px 0;
 }
