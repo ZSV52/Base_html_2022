@@ -32,6 +32,11 @@ ul {
   border: 1px solid #3a95ff;
   color: #3a95ff;
 }
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 437px;
+}
 /* стили хэдера */
 .header-top {
   border: 1px solid #dedede;
@@ -102,10 +107,7 @@ ul {
   color: #212121;
   margin-bottom: 63px;
 }
-.banner-buttons {
-  display: flex;
-  justify-content: space-between;
-}
+
 /* лучшие предложения */
 .offers-info {
   display: flex;
@@ -122,4 +124,55 @@ ul {
 }
 .offers-info-item img {
   border-radius: 0 8px 8px 0;
+}
+/* кредиты */
+.credits {
+  background-color: #eff2f5;
+}
+.credits-info {
+  display: flex;
+  justify-content: space-between;
+}
+.credits-60 {
+  background: #eff2f5;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 750px;
+}
+.credits-60-items {
+  display: flex;
+  justify-content: space-between;
+  width: 545px;
+}
+.credits-60-head {
+  display: flex;
+  justify-content: space-between;
+}
+.credits-60-head p {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 130%;
+  color: #212121;
+}
+.credits-60-item {
+  text-align: center;
+}
+.credits-60-item p {
+  margin: 0;
+  padding: 8px;
+}
+.credits-60-item-head {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+  color: #212121;
+  border-bottom: 1px solid #3a95ff;
+}
+.credits-side-link {
+  background: #f7f7f7;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-bottom: 5px solid #3a95ff;
+  width: 360px;
 }
