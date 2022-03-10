@@ -128,6 +128,12 @@ ul {
 /* кредиты */
 .credits {
   background-color: #eff2f5;
+  height: 775px;
+}
+.credits-wrap {
+  display: flex;
+  align-items: center;
+  height: 500px;
 }
 .credits-info {
   display: flex;
@@ -138,15 +144,21 @@ ul {
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  box-sizing: border-box;
 }
 .credits-60-items {
   display: flex;
   justify-content: space-between;
   width: 545px;
+  margin-bottom: 40px;
 }
 .credits-60-head {
   display: flex;
   justify-content: space-between;
+  width: 650px;
 }
 .credits-60-head p {
   font-weight: 600;
@@ -175,4 +187,55 @@ ul {
   border-radius: 8px;
   border-bottom: 5px solid #3a95ff;
   width: 360px;
+  height: 235px;
+  display: flex;
+  justify-content: space-between;
+  padding: 34px;
+  box-sizing: border-box;
+}
+.credits-side-link img {
+  align-self: flex-end;
+}
+/* получить карту */
+.get-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.get-card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* футер */
+footer {
+  background-color: #eff2f5;
+}
+.footer-info {
+  display: flex;
+}
+.footer-info-item {
+  width: 360px;
+}
+/* страница дебетовые карты */
+.debet-cards-item {
+  display: flex;
+  align-items: center;
+  background: #eff2f5;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-bottom: 70px;
+}
+.debet-cards-item p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: #424242;
+}
+.debet-cards-item h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: #212121;
 }
